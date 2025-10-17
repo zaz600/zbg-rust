@@ -7,7 +7,7 @@ pub mod utils;
 
 #[derive(Parser)]
 #[command(name = "zbg-rust")]
-#[command(about = "A Rust-based command-line tool git commands", long_about = None)]
+#[command(about = "A Rust-based command-line tool for git commands", long_about = None)]
 struct Cli {
     #[command(subcommand)]
     command: Commands,
